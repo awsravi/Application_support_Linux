@@ -1,0 +1,70 @@
+			LINUX-COMMANDS			Awsravi
+Linux server commands are essential for managing and interacting with a Linux server. Here are some commonly used Linux server commands:
+1. **File and Directory Operations:**
+   - ls: List files and directories in the current directory.
+   - pwd: Print the current working directory.			awsravi
+   - cd: Change the current directory.
+   - touch: Create an empty file.
+   - `mkdir`: Create a new directory.
+   - `rm`: Remove files or directories (use with caution).
+   - `cp`: Copy files and directories.
+   - `mv`: Move or rename files and directories.
+   - `find`: Search for files and directories.
+   - `chmod`: Change file permissions.
+   - `chown`: Change file ownership.
+   
+2. **Text File Manipulation:**
+   - `cat`: Display the contents of a file. 		awsravi
+   - `more` or `less`: View file contents page by page.
+   - `nano` or `vim`: Text editors for creating and editing files.
+   - `grep`: Search for text within files.
+   - `sed`: Stream editor for text manipulation.
+
+3. **File Transfer:**
+   - `scp`: Securely copy files between local and remote servers.
+   - `rsync`: Synchronize files and directories between local and remote servers.
+4. **User and Permission Management:**
+
+   - `useradd` and `userdel`: Create and delete user accounts.
+   - `passwd`: Change user passwords.
+   - `groupadd` and `groupdel`: Create and delete user groups.
+   - `chmod` and `chown`: Change file and directory permissions and ownership.
+   - `sudo`: Execute commands with superuser privileges.
+5. **System Information:**		awsravi
+
+   - `uname`: Display system information.
+   - `df`: Show disk space usage.
+   - `free`: Display memory usage.
+   - `top` or `htop`: Monitor system resource usage.
+   - `uptime`: Show system uptime.			awsravi
+   
+6. **Package Management:**
+   - `apt` (Debian/Ubuntu): Package management tool for installing, updating, and removing software packages.
+   - `yum` (CentOS/Red Hat): Package management tool for software management.
+   - `dnf` (Fedora): Package manager with advanced features.
+   - `rpm`: Low-level package manager (useful for querying installed packages).
+7. **Network Management:**
+
+   - `ifconfig` or `ip`: Display network interface information.
+   - `ping`: Test network connectivity to a host.
+   - `netstat` or `ss`: Display network statistics.
+   - `ssh`: Securely connect to remote servers.
+   - `firewall-cmd` (CentOS/Red Hat) or `ufw` (Debian/Ubuntu): Configure the firewall.
+8. **Process Management:**
+
+   - `ps`: List running processes.			awsravi
+   - `kill`: Terminate processes.
+   - `top` or `htop`: Monitor and manage running processes.
+9. **Logs and Monitoring:**
+
+   - `tail`: Display the end of a text file (useful for log files).
+   - `journalctl`: Query and view system logs (systemd-based distributions).
+10. **System Control:**
+
+    - `shutdown` and `reboot`: Shutdown or restart the system.
+    - `systemctl`: Control system services (systemd-based distributions).
+11. **File Compression and Archiving:**		awsravi
+
+    - `tar`: Create and extract tar archives.
+    - `zip` and `unzip`: Compress and decompress zip archives.
+    - `gzip` and `gunzip`: Compress and decompress gzip files.
